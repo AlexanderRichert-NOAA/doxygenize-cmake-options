@@ -65,6 +65,7 @@ def generate_doxygen_table(options):
         "| Option | Description | Default |",
         "|--------|-------------|---------|",
         "| CMAKE_INSTALL_PREFIX | Installation path | /usr/local |",
+        "| CMAKE_POSITION_INDEPENDENT_CODE | Enable position-independent code (PIC) for static build | OFF |",
     ]
     
     # Add table rows
